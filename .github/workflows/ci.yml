@@ -27,7 +27,6 @@ jobs:
           git config user.name "edram"
           git config user.email "edram@qq.com"
           
-      - run: cat ~/.npmrc
       - run: yarn
       - run: npm run release --cli
         env:
