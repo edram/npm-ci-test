@@ -25,7 +25,7 @@ jobs:
         run: |
           git config user.name "edram"
           git config user.email "edram@qq.com"
-          echo //registry.npmjs.org/:_authToken=5ce60a11-414a-4953-ada4-a285f5e55e9a > .npmrc
+          echo //registry.npmjs.org/:_authToken=351eacff-e6c5-4c41-a2b6-0dfcaf738436 > .npmrc
       - run: cat .npmrc
       - run: yarn
       - run: yarn release
