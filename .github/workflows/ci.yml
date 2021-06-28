@@ -28,7 +28,7 @@ jobs:
           npm config set //registry.npmjs.org/:_authToken 2b725295-ba98-4792-a57d-02eff0388981
       - run: cat ~/.npmrc
       - run: yarn
-      - run: yarn release --cli
+      - run: npm run release --cli
         env:
           GITHUB_TOKEN: ${{ secrets.EDRAM_GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
