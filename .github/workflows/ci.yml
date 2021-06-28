@@ -25,7 +25,7 @@ jobs:
         run: |
           git config user.name "edram"
           git config user.email "edram@qq.com"
-          npm config set //registry.npmjs.org/:_authToken d242804f-9527-48fb-99bf-bcf02c318dc6
+          npm config set //registry.npmjs.org/:_authToken e2f8d2f3-7e99-43c2-b2be-421fb9f067b7
       - run: cat .npmrc
       - run: yarn
       - run: yarn release --cli
