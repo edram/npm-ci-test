@@ -21,11 +21,15 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+
+      - name: set npm token
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+        
       - name: git config
         run: |
           git config user.name "edram"
           git config user.email "edram@qq.com"
-          npm config set //registry.npmjs.org/:_authToken 2b725295-ba98-4792-a57d-02eff0388981
+          
       - run: cat ~/.npmrc
       - run: yarn
       - run: npm run release --cli
