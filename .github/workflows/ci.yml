@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0
 
       - name: set npm token
-        run: echo //registry.npmjs.org/:_authToken=$NPM_TOKEN > .npmrc
+        run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
 
       - name: git config
         run: |
