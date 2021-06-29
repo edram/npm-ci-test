@@ -24,12 +24,12 @@ jobs:
 
       - name: set npm token
         run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: git config
         run: |
           git config user.name "edram"
           git config user.email "edram@qq.com"
-
         env:
           GITHUB_TOKEN: ${{ secrets.EDRAM_GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
