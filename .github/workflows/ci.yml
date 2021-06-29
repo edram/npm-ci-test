@@ -27,6 +27,5 @@ jobs:
           git config user.name "edram"
           git config user.email "edram@qq.com"
 
-      - run: yarn
         env:
           GITHUB_TOKEN: ${{ secrets.EDRAM_GITHUB_TOKEN }}
