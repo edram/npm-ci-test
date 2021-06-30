@@ -1,3 +1,5 @@
+## [0.4.1](https://github.com/edram/npm-ci-test/compare/v0.4.0...v0.4.1) (2021-06-30)
+
 # [0.4.0](https://github.com/edram/npm-ci-test/compare/v0.2.0...v0.4.0) (2021-06-30)
 
 
