@@ -1,3 +1,17 @@
+# [0.4.0](https://github.com/edram/npm-ci-test/compare/v0.2.0...v0.4.0) (2021-06-30)
+
+
+### Bug Fixes
+
+* 修复一个轻微bug ([cb426f8](https://github.com/edram/npm-ci-test/commit/cb426f8ba849a051b284680acc10f233fa44c1ec))
+* 增加 files ([901bbfa](https://github.com/edram/npm-ci-test/commit/901bbfa0ffd364b218288e41512e6bb578d8167d))
+
+
+### Features
+
+* haha ([4b411d9](https://github.com/edram/npm-ci-test/commit/4b411d9b01b15894c95d7a0600eadb7728d56d3c))
+* **sdf:** 增加一个很棒的功能 ([c7d3a15](https://github.com/edram/npm-ci-test/commit/c7d3a158eecc723902c74c8f08e10482a62a3b75))
+
 # [0.3.0](https://github.com/edram/npm-ci-test/compare/v0.2.0...v0.3.0) (2021-06-30)
 
 
